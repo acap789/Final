@@ -5,10 +5,9 @@ public class RateDomainModel {
 	private int iRateID;
 	private int iMinCreditScore;
 	private double dInterestRate;
-	
-	public RateDomainModel()
-	{
-		
+
+	public RateDomainModel() {
+
 	}
 
 	public int getiRateID() {
@@ -34,6 +33,5 @@ public class RateDomainModel {
 	public void setdInterestRate(double dInterestRate) {
 		this.dInterestRate = dInterestRate;
 	}
-	
-	
+
 }
